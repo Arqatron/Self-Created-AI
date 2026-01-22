@@ -1,7 +1,7 @@
-================================  
+=
           IMPORTANT NOTES
-================================
-================================
+
+
 
 1. This project aims to create a pseudo generative AI/ML feel by using simple probability to generate
    responses - they may be garbled at times.
