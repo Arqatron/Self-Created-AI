@@ -4,15 +4,16 @@ from tkinter import *
 from tkinter.ttk import *
 import pymysql
 
-root=tk.Tk()
-root.withdraw()
+
+
 
 class window:
-    
+    def __init__(self,root):
+        self.root=root
     def create(self,name,height=400,width=500):
         self.menus={}
         
-        self.name=tk.Toplevel(root)
+        self.name=tk.Toplevel(self.root)
         self.name.geometry(f'{width}x{height}')
         self.name.resizable(False,False)
         self.name.title(str(name))
@@ -49,13 +50,10 @@ class window:
         if name in self.menus.keys():
             self.menubar.delete(name)
         
-     
-main=window()
-main.create('Test')
-main.menubar_init()
-main.menu_add('File',(('Test',''),('Test1','')))
-main.del_option('Test1')
+    
 
 
 
-root.mainloop()
+
+
+
