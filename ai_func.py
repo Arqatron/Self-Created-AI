@@ -59,7 +59,7 @@ class AI:
             for word in list_words:
                 in_list=False
                 for items in dat:
-                    if items[0].lower()==word.lower():
+                    if items[0].lower()==word.lower() and (items[0].isspace()==False):
                         in_list=True
                         break
                     else:
@@ -69,13 +69,19 @@ class AI:
                     self.cur.execute('''UPDATE Data SET Probability = %s WHERE Words = %s ''',(change,word))
                     self.mycon.commit()
                     continue
-                else:
+                elif in_list==False and word.replace(' ','')!='':
                     self.cur.execute(f"INSERT INTO Data VALUES(%s,1.0);",(word))
                     self.mycon.commit()
         else:
             pass
                         
-                        
+    def extracted_data(self):
+        self.cur.execute('USE AI_Data;')
+        self.cur.execute('SELECT * FROM Data;')
+        dat=self.cur.fetchall()
+        data=[i for i in dat]
+        return data
                 
+
 test=AI()
-test.Train_input("I hope you don't trust it either ")
+test.Train_input('     ')
