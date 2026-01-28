@@ -16,7 +16,8 @@ class AI:
             self.cur.execute('''USE AI_Data;''')
             self.cur.execute('''CREATE TABLE Data( 
                              Words varchar(75) NOT NULL, 
-                             Probability FLOAT(24) NOT NULL)''')
+                             Probability FLOAT(24) NOT NULL,
+                             Count INT(10))''')
             return 'Created'
         else:
             pass
@@ -58,19 +59,26 @@ class AI:
             dat=self.cur.fetchall()
             for word in list_words:
                 in_list=False
+                
                 for items in dat:
+                    
+                    
                     if items[0].lower()==word.lower() and (items[0].isspace()==False):
                         in_list=True
+                        count=items[2]
                         break
                     else:
                         in_list=False
                 if in_list:
+                    
                     change=(1-(self.calc(word,list_words)))
                     self.cur.execute('''UPDATE Data SET Probability = %s WHERE Words = %s ''',(change,word))
+                    
+                    self.cur.execute('''UPDATE Data SET Count = %s WHERE Words = %s''',(count+1,word))
                     self.mycon.commit()
                     continue
                 elif in_list==False and word.replace(' ','')!='':
-                    self.cur.execute(f"INSERT INTO Data VALUES(%s,1.0);",(word))
+                    self.cur.execute(f"INSERT INTO Data VALUES(%s,1.0,1);",(word))
                     self.mycon.commit()
         else:
             pass
@@ -84,4 +92,4 @@ class AI:
                 
 
 test=AI()
-test.Train_input('     ')
+test.Train_input('This is the second data')
