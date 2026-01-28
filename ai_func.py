@@ -48,7 +48,7 @@ class AI:
         data=[i for i in dat]
         return data
     def calc(self,word,list_words):
-        dat = extracted_data()
+        dat = self.extracted_data()
         recorded_count=0
         for items in dat:
             if items[0].lower()==word.lower():
@@ -66,7 +66,7 @@ class AI:
         if truth:
             list_words=str(sentence).split(' ')
             
-            dat= extracted_data()
+            dat= self.extracted_data()
             for word in list_words:
                 in_list=False
                 
@@ -88,7 +88,7 @@ class AI:
                     self.mycon.commit()
                     continue
                 elif in_list==False and word.replace(' ','')!='':
-                    self.cur.execute(f"INSERT INTO Data VALUES(%s,1.0,1);",(word))
+                    self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s);",(word,1.0,1))
                     self.mycon.commit()
         else:
             pass
