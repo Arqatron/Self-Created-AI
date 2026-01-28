@@ -41,22 +41,32 @@ class AI:
             
             print('An exception has occured: Please check the log for further details.')
             
-    
+    def extracted_data(self):
+        self.cur.execute('USE AI_Data;')
+        self.cur.execute('SELECT * FROM Data;')
+        dat=self.cur.fetchall()
+        data=[i for i in dat]
+        return data
     def calc(self,word,list_words):
+        dat = extracted_data()
+        recorded_count=0
+        for items in dat:
+            if items[0].lower()==word.lower():
+                recorded_count=items[2]
+                
         total=len(list_words)
         count=0
         for i in list_words:
             if i==word:
                 count+=1
-        prob=float(count/total)
+        prob=float(count/(total*recorded_count))
         return prob
         
     def Train_input(self,sentence,truth=True):
         if truth:
             list_words=str(sentence).split(' ')
-            self.cur.execute('USE AI_Data;')
-            self.cur.execute('SELECT * FROM Data;')
-            dat=self.cur.fetchall()
+            
+            dat= extracted_data()
             for word in list_words:
                 in_list=False
                 
@@ -83,13 +93,8 @@ class AI:
         else:
             pass
                         
-    def extracted_data(self):
-        self.cur.execute('USE AI_Data;')
-        self.cur.execute('SELECT * FROM Data;')
-        dat=self.cur.fetchall()
-        data=[i for i in dat]
-        return data
+    
                 
 
 test=AI()
-test.Train_input('This is the second data')
+
