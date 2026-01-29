@@ -96,5 +96,5 @@ class AI:
     
                 
 
-test=AI()
+
 
