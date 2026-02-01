@@ -92,7 +92,7 @@ class AI:
                             next_word=''
                 if in_list:
                         pair_exists=False
-                        change=self.calc(word,list_words)
+                        change=1-self.calc(word,list_words)
                         dat=self.extracted_data()
                         for items in dat:
                             if (items[0],items[1])==(word,next_word):
