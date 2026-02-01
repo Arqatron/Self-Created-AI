@@ -94,7 +94,41 @@ class AI:
             pass
                         
     
+    def Response(self,sentence):
+        self.Train_input(sentence)
+                   
+        self.response=''
+                   
+        self.type='statement'
+
+        self.tense='Present'
+                   
+        Q_tags=('what','when','where','why','how','?')
+                   
+        Tenses={'Present':'is','Past':'was','Future':'will'}
+        
+        words=str(sentence).rstrip().lstrip().split(' ')
+                 
+        for i in words:
+            if (i.lower() in Q_tags) or (words[-1][-1]=='?'):
+                self.type='question'
+                break
+            else:
+                self.type='statement'
                 
+        for word in words:
+            if word==Tenses['Present']:
+                self.tense='Present'
+            elif word==Tenses['Past']:
+                self.tense='Past'
+            elif word==Tenses['Future']:
+                self.tense='Future'
+                    
+                       
+        return self.response,self.type,self.tense
+          
 
-
+#test=AI()
+#out=test.Response('was she here?')
+#print(out)
 
