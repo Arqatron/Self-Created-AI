@@ -35,9 +35,10 @@ def Action_Train():
     
 def Action_View_Data():
     View_Frame=main.create_frame('View Frame')
-    table=ttk.Treeview(View_Frame,columns=('word','prob','count'),show='headings')
+    table=ttk.Treeview(View_Frame,columns=('word','next','prob','count'),show='headings')
 
     table.heading('word',text='Word')
+    table.heading('next',text='Next')
     table.heading('prob',text='Probability')
     table.heading('count',text='Total Count')
 

@@ -1,5 +1,7 @@
 '''Started on 22/01/2026 by Arqatron'''
 import pymysql as py
+import math
+import random
 class AI:
     def check_schema(self):
         self.cur.execute('SHOW DATABASES;')
@@ -15,7 +17,8 @@ class AI:
             self.cur.execute('''CREATE DATABASE AI_Data''')
             self.cur.execute('''USE AI_Data;''')
             self.cur.execute('''CREATE TABLE Data( 
-                             Words varchar(75) NOT NULL, 
+                             Words varchar(75) NOT NULL,
+                             Next  varchar(75) NOT NULL,
                              Probability FLOAT(24) NOT NULL,
                              Count INT(10))''')
             return 'Created'
@@ -34,6 +37,7 @@ class AI:
            self.mycon=py.connect(user='root',host='localhost',password='sql123')
            self.cur=self.mycon.cursor()
            self.check_schema()
+           
         except:
             with open('Log.txt','a') as file:
                 file.write('\n')
@@ -59,7 +63,7 @@ class AI:
         for i in list_words:
             if i==word:
                 count+=1
-        prob=float(count/(total*recorded_count))
+        prob=float(count/(math.log(1+recorded_count)))
         return prob
         
     def Train_input(self,sentence,truth=True):
@@ -79,17 +83,33 @@ class AI:
                         break
                     else:
                         in_list=False
+                next_word=''
+                for i in range(len(list_words)):
+                        try:
+                            if list_words[i]==word:
+                                next_word=list_words[i+1]
+                        except:
+                            next_word=''
                 if in_list:
-                    
-                    change=(1-(self.calc(word,list_words)))
-                    self.cur.execute('''UPDATE Data SET Probability = %s WHERE Words = %s ''',(change,word))
-                    
-                    self.cur.execute('''UPDATE Data SET Count = %s WHERE Words = %s''',(count+1,word))
-                    self.mycon.commit()
-                    continue
+                        pair_exists=False
+                        change=self.calc(word,list_words)
+                        dat=self.extracted_data()
+                        for items in dat:
+                            if (items[0],items[1])==(word,next_word):
+                                pair_exists=True
+                                count=items[3]
+                        if pair_exists:
+                            self.cur.execute('''UPDATE Data SET Probability = %s WHERE Words = %s ''',(change,word))
+                            
+                            self.cur.execute('''UPDATE Data SET Count = %s WHERE Words = %s AND Next = %s''',(count+1,word,next_word))
+                            self.mycon.commit()
+                        else:
+                            self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s,%s);",(word,next_word,1.0,1))
+                            self.mycon.commit()
+                            continue
                 elif in_list==False and word.replace(' ','')!='':
-                    self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s);",(word,1.0,1))
-                    self.mycon.commit()
+                            self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s,%s);",(word,next_word,1.0,1))
+                            self.mycon.commit()
         else:
             pass
                         
@@ -110,7 +130,7 @@ class AI:
         words=str(sentence).rstrip().lstrip().split(' ')
                  
         for i in words:
-            if (i.lower() in Q_tags) or (words[-1][-1]=='?'):
+            if (i.lower() in Q_tags) and (words[-1][-1]=='?'):
                 self.type='question'
                 break
             else:
@@ -124,11 +144,24 @@ class AI:
             elif word==Tenses['Future']:
                 self.tense='Future'
                     
-                       
+        data=sorted(self.extracted_data(), key= lambda x:x[1] ,reverse=True)
+        
+        for i in range(len(data)):
+            temp=random.randint(0,i)
+            data[i],data[temp]=data[temp],data[i]
+        
+        
+        for i in range(len(data)):
+            if (data[i][2]>0.5 or data[i][1]==data[i+1][0]) and len(self.response)<10:
+                self.response+=data[i][0]
+                self.response+=' '
+                self.response+=data[i][1]
+                self.response+= ' '
+        self.Train_input(self.response)
         return self.response,self.type,self.tense
           
 
-#test=AI()
-#out=test.Response('was she here?')
-#print(out)
+test=AI()
+out=test.Response('hello,how are you')
+print(out)
 
