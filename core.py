@@ -45,9 +45,20 @@ def Action_View_Data():
     for row in AI.extracted_data():
         table.insert('','end',values=row)
     table.pack(fill='both')
+def Action_Chat():
+    def generate_response(query=str(user_input.get())):
+        response=AI.Response(query)
+        
+        
+    Chat_Frame=main.create_frame('Chat Frame',400,500)
+    user_input=ttk.Entry(Chat_Frame)
+    user_input.place(x=190,y=390)
+    send=ttk.Button(Chat_Frame,text='Send',command=generate_response)
+    send.place(x=210,y=390)
+    
 main.create('Arq AI',600,800)
 main.menubar_init()
-main.menu_add('Action',[('Train',Action_Train),('View Data',Action_View_Data),('Search',''),('Log','')])
+main.menu_add('Action',[('Train',Action_Train),('View Data',Action_View_Data),('Chat',Action_Chat),('Log','')])
 
 
 root.mainloop()

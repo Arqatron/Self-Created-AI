@@ -53,7 +53,7 @@ class AI:
         return data
     def calc(self,word,list_words):
         dat = self.extracted_data()
-        recorded_count=0
+        recorded_count=1
         for items in dat:
             if items[0].lower()==word.lower():
                 recorded_count=items[2]
@@ -63,7 +63,7 @@ class AI:
         for i in list_words:
             if i==word:
                 count+=1
-        prob=float(count/(math.log(1+recorded_count)))
+        prob=float(count/recorded_count*total)
         return prob
         
     def Train_input(self,sentence,truth=True):
@@ -158,10 +158,10 @@ class AI:
                 self.response+=data[i][1]
                 self.response+= ' '
         self.Train_input(self.response)
-        return self.response,self.type,self.tense
+        return self.response
           
 
-test=AI()
-out=test.Response('hello,how are you')
-print(out)
+#test=AI()
+#out=test.Response('hello,how are you')
+#print(out)
 
