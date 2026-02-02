@@ -181,7 +181,7 @@ class AI:
         
         for i in range(len(data)):
             try:
-                if (data[i][2]>0.6 or data[i][1]==data[i+1][0]) and len(self.response)<50:
+                if (data[i][2]>0.6 and data[i][1]==data[i+1][0]) and len(self.response)<50:
                     
                     self.response+=data[i][0]
                     self.response+=' '

@@ -3410,3 +3410,208 @@ Probability and count for (sun,
 wait) were changed
 New word pair (
 wait,) was added
+Probability and count for (Magnus,) were changed
+Probability and count for (sunlight,and) were changed
+New word pair (and,does) was added
+Probability and count for (does,intelligence) were changed
+New word pair (intelligence,work?
+) was added
+Probability and count for (work?
+,Reading) were changed
+New word pair (Reading,is) was added
+Probability and count for (is,Chess) were changed
+Probability and count for (Chess,) were changed
+Probability and count for (Chess,) were changed
+Probability and count for (early,who) were changed
+New word pair (who,
+the) was added
+Probability and count for (
+the,goat) were changed
+New word pair (goat,
+dog) was added
+New word pair (
+dog,person.
+) was added
+New word pair (person.
+,west.
+) was added
+Probability and count for (west.
+,) were changed
+Probability and count for (is,chess) were changed
+Probability and count for (chess,) were changed
+Probability and count for (Magnus,is) were changed
+Probability and count for (is,the) were changed
+Probability and count for (the,) were changed
+Probability and count for (sun,
+wait) were changed
+New word pair (
+wait,
+
+AI) was added
+New word pair (
+
+AI,are) was added
+New word pair (are,is) was added
+Probability and count for (is,words.
+) were changed
+New word pair (words.
+,
+louder) was added
+New word pair (
+louder,than) was added
+New word pair (than,nearest) was added
+Probability and count for (nearest,library?
+) were changed
+Probability and count for (library?
+,) were changed
+Probability and count for (what,is) were changed
+New word pair (is,AI) was added
+New word pair (AI,) was added
+Probability and count for (money,) were changed
+Probability and count for (developer,in) were changed
+New word pair (in,
+python.
+) was added
+Probability and count for (
+python.
+,) were changed
+Probability and count for (Who,is) were changed
+New word pair (is,new) was added
+Probability and count for (new,
+sun) were changed
+New word pair (
+sun,
+) was added
+New word pair (
+,) was added
+New word pair (
+,) was added
+New word pair (sun,is) was added
+New word pair (is,yellow) was added
+New word pair (yellow,) was added
+Probability and count for (
+Water,
+who) were changed
+New word pair (
+who,of) was added
+Probability and count for (of,technology.
+) were changed
+New word pair (technology.
+,The) was added
+Probability and count for (The,sun?) were changed
+New word pair (sun?,
+) was added
+New word pair (
+,) was added
+New word pair (
+no,like) was added
+New word pair (like,things.
+) was added
+Probability and count for (things.
+,) were changed
+Probability and count for (Magnus,) were changed
+Probability and count for (Can,you) were changed
+New word pair (you,is) was added
+Probability and count for (great,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (are,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (is,yellow) were changed
+New word pair (yellow,the) was added
+Probability and count for (the,worm.
+) were changed
+New word pair (worm.
+,AI) was added
+Probability and count for (AI,work?
+) were changed
+Probability and count for (work?
+,) were changed
+Probability and count for (Chess,) were changed
+Probability and count for (Can,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (great,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (are,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (is,yellow) were changed
+Probability and count for (yellow,the) were changed
+Probability and count for (the,worm.
+) were changed
+Probability and count for (worm.
+,AI) were changed
+Probability and count for (AI,work?
+) were changed
+Probability and count for (work?
+,) were changed
+New word pair (Chess,is) was added
+New word pair (is,good) was added
+New word pair (good,) was added
+Probability and count for (Can,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (great,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (are,you) were changed
+Probability and count for (you,is) were changed
+Probability and count for (is,yellow) were changed
+Probability and count for (yellow,the) were changed
+Probability and count for (the,worm.
+) were changed
+Probability and count for (worm.
+,AI) were changed
+Probability and count for (AI,work?
+) were changed
+Probability and count for (work?
+,) were changed
+Probability and count for (Magnus,is) were changed
+Probability and count for (is,the) were changed
+Probability and count for (the,goat) were changed
+Probability and count for (goat,) were changed
+Probability and count for (Success,The) were changed
+Probability and count for (The,dog) were changed
+Probability and count for (dog,is) were changed
+New word pair (is,
+and) was added
+Probability and count for (Carlsen,is) were changed
+Probability and count for (is,
+and) were changed
+New word pair (
+and,clear.
+) was added
+Probability and count for (clear.
+,) were changed
+Probability and count for (chess,) were changed
+Probability and count for (
+Water,
+who) were changed
+Probability and count for (
+who,of) were changed
+Probability and count for (
+who,of) were changed
+New word pair (of,
+earns) was added
+New word pair (
+earns,a) was added
+New word pair (a,computer) was added
+Probability and count for (computer,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (What,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (
+sun,is) were changed
+Probability and count for (is,) were changed
+New word pair (This,is) was added
+Probability and count for (is,AI) were changed
+Probability and count for (AI,) were changed
+Probability and count for (who,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (is,) were changed
+New word pair (AI,a) was added
+Probability and count for (a,is) were changed
+New word pair (poem?,a) was added
+Probability and count for (a,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (This,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (
+sun,is) were changed
+Probability and count for (is,) were changed
