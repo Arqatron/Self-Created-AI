@@ -103,7 +103,7 @@ class AI:
                             self.cur.execute('''UPDATE Data SET Probability = %s WHERE Words = %s ''',(change,word))
                             
                             self.cur.execute('''UPDATE Data SET Count = %s WHERE Words = %s AND Next = %s''',(count+1,word,next_word))
-                            self.mycon.commit()
+                            
 
                             try:
                                 with open('Log.txt','a') as file:
@@ -115,7 +115,7 @@ class AI:
                                     file.write(f'Probability and count for ({word},{next_word}) were changed')
                         else:
                             self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s,%s);",(word,next_word,1.0,1))
-                            self.mycon.commit()
+                            
                             try:
                                 with open('Log.txt','a') as file:
                                     file.write('\n')
@@ -128,7 +128,7 @@ class AI:
                             continue
                 elif in_list==False and word.replace(' ','')!='':
                             self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s,%s);",(word,next_word,1.0,1))
-                            self.mycon.commit()
+                            
                             try:
                                 with open('Log.txt','a') as file:
                                     file.write('\n')
@@ -137,6 +137,7 @@ class AI:
                                 with open('Log.txt','a') as file:
                                     file.write('\n')
                                     file.write(f"New word pair {word},{next_word} was added")
+                self.mycon.commit()
         else:
             pass
                         

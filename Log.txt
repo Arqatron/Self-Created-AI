@@ -94,3 +94,614 @@ Probability and count for (in,the) were changed
 Probability and count for (the,) were changed
 Probability and count for (is,the) were changed
 Probability and count for (the,) were changed
+New word pair (how,happy) was added
+New word pair (happy,are) was added
+New word pair (are,you?) was added
+New word pair (you?,) was added
+Probability and count for (of,life?
+) were changed
+New word pair (life?
+,
+the) was added
+New word pair (
+the,sky) was added
+New word pair (sky,good) was added
+Probability and count for (good,habit.
+) were changed
+New word pair (and,you) was added
+New word pair (you,man.
+) was added
+Probability and count for (the,best) were changed
+Probability and count for (Honesty,is) were changed
+Probability and count for (is,running) were changed
+New word pair (essential,electronic) was added
+Probability and count for (electronic,device.
+) were changed
+New word pair (device.
+,cat) was added
+Probability and count for (cat,is) were changed
+Probability and count for (is,running) were changed
+Probability and count for (is,running) were changed
+New word pair (power.
+,is) was added
+Probability and count for (is,running) were changed
+New word pair (sitting,am) was added
+Probability and count for (am,Learning) were changed
+New word pair (Learning,Honesty) was added
+Probability and count for (Honesty,is) were changed
+Probability and count for (is,running) were changed
+New word pair (
+those,who) was added
+New word pair (who,indeed.
+) was added
+Probability and count for (indeed.
+,) were changed
+Probability and count for (good,habit.
+) were changed
+New word pair (habit.
+,the) was added
+Probability and count for (the,best) were changed
+New word pair (best,water) was added
+Probability and count for (water,) were changed
+New word pair (
+The,day) was added
+New word pair (day,work?
+) was added
+Probability and count for (work?
+,) were changed
+Probability and count for (a,Honesty) were changed
+Probability and count for (Honesty,is) were changed
+Probability and count for (is,running) were changed
+New word pair (running,are) was added
+Probability and count for (are,you) were changed
+Probability and count for (you,man.
+) were changed
+Probability and count for (man.
+,) were changed
+Probability and count for (sets,in) were changed
+New word pair (in,park.
+) was added
+Probability and count for (park.
+,) were changed
+Probability and count for (I,like) were changed
+Probability and count for (like,) were changed
+New word pair (give,me) was added
+New word pair (me,inspiration) was added
+New word pair (inspiration,) was added
+Probability and count for (sun,rises) were changed
+New word pair (rises,
+knowledge.
+) was added
+New word pair (
+knowledge.
+,) was added
+Probability and count for (sets,in) were changed
+New word pair (in,on) was added
+Probability and count for (early,bird) were changed
+New word pair (bird,the) was added
+New word pair (the,is) was added
+New word pair (east.
+,cat) was added
+Probability and count for (cat,is) were changed
+Probability and count for (is,AI) were changed
+Probability and count for (today?,) were changed
+Probability and count for (Actions,speak) were changed
+New word pair (speak,is) was added
+Probability and count for (is,AI) were changed
+New word pair (wealth.
+,amazing) was added
+New word pair (amazing,sky) was added
+Probability and count for (great,programming) were changed
+New word pair (programming,for) was added
+Probability and count for (for,you) were changed
+New word pair (you,
+very) was added
+New word pair (
+very,knowledge) was added
+New word pair (knowledge,Time) was added
+Probability and count for (Time,and) were changed
+New word pair (and,to) was added
+Probability and count for (to,in) were changed
+Probability and count for (in,on) were changed
+New word pair (on,
+The) was added
+Probability and count for (the,is) were changed
+Probability and count for (is,AI) were changed
+Probability and count for (amazing,sky) were changed
+Probability and count for (sky,) were changed
+Probability and count for (of,technology.
+) were changed
+New word pair (life?
+,hello,) was added
+Probability and count for (hello,,how) were changed
+New word pair (how,of) was added
+Probability and count for (of,technology.
+) were changed
+New word pair (technology.
+,is) was added
+Probability and count for (is,AI) were changed
+Probability and count for (the,is) were changed
+Probability and count for (is,AI) were changed
+New word pair (AI,life) was added
+Probability and count for (life,on) were changed
+Probability and count for (on,
+The) were changed
+Probability and count for (
+The,day) were changed
+Probability and count for (day,) were changed
+Probability and count for (who,is) were changed
+Probability and count for (is,the) were changed
+Probability and count for (the,best) were changed
+New word pair (best,programmer) was added
+New word pair (programmer,) was added
+Probability and count for (day,work?
+) were changed
+New word pair (work?
+,of) was added
+Probability and count for (of,What) were changed
+New word pair (What,life) was added
+Probability and count for (life,on) were changed
+New word pair (on,west.
+) was added
+Probability and count for (west.
+,) were changed
+Probability and count for (is,the) were changed
+New word pair (amazing,park.
+) was added
+Probability and count for (park.
+,) were changed
+Probability and count for (is,the) were changed
+New word pair (water,the) was added
+Probability and count for (the,AI) were changed
+New word pair (best,life?
+) was added
+Probability and count for (life?
+,) were changed
+New word pair (
+Learning,Honesty) was added
+New word pair (Honesty,makes) was added
+Probability and count for (makes,a) were changed
+New word pair (a,the) was added
+Probability and count for (the,AI) were changed
+New word pair (meaning,running) was added
+Probability and count for (running,in) were changed
+New word pair (in,sitting) was added
+Probability and count for (sitting,am) were changed
+New word pair (am,
+running) was added
+New word pair (
+running,are) was added
+Probability and count for (are,you) were changed
+Probability and count for (you,
+very) were changed
+New word pair (
+very,black) was added
+Probability and count for (black,) were changed
+New word pair (
+power.
+,is) was added
+Probability and count for (is,the) were changed
+Probability and count for (early,bird) were changed
+Probability and count for (bird,the) were changed
+Probability and count for (the,AI) were changed
+New word pair (east.
+,is) was added
+Probability and count for (is,the) were changed
+New word pair (essential,technology.
+) was added
+Probability and count for (technology.
+,is) were changed
+Probability and count for (is,the) were changed
+Probability and count for (the,AI) were changed
+New word pair (AI,
+helps) was added
+New word pair (
+helps,gain) was added
+New word pair (gain,) was added
+New word pair (are,there) was added
+New word pair (there,bad) was added
+New word pair (bad,people) was added
+New word pair (people,) was added
+Probability and count for (in,park.
+) were changed
+New word pair (park.
+,
+on) was added
+New word pair (
+on,earth.
+) was added
+New word pair (earth.
+,Knowledge) was added
+Probability and count for (Knowledge,is) were changed
+New word pair (is,of) was added
+Probability and count for (python.
+,) were changed
+Probability and count for (me,the) were changed
+New word pair (the,who) was added
+Probability and count for (Time,and) were changed
+Probability and count for (and,you) were changed
+Probability and count for (A,friend) were changed
+Probability and count for (friend,indeed.
+) were changed
+New word pair (
+the,time?
+) was added
+New word pair (time?
+,friend) was added
+Probability and count for (friend,indeed.
+) were changed
+New word pair (indeed.
+,time) was added
+Probability and count for (time,) were changed
+Probability and count for (meaning,running) were changed
+New word pair (running,
+What) was added
+New word pair (
+What,is) was added
+Probability and count for (is,of) were changed
+Probability and count for (hard.
+,) were changed
+Probability and count for (bad,people) were changed
+New word pair (people,sky) was added
+Probability and count for (sky,good) were changed
+New word pair (good,intelligence) was added
+Probability and count for (intelligence,is) were changed
+Probability and count for (is,of) were changed
+Probability and count for (and,you) were changed
+New word pair (you,Practice) was added
+Probability and count for (Practice,makes) were changed
+New word pair (makes,east.
+) was added
+Probability and count for (east.
+,is) were changed
+Probability and count for (is,of) were changed
+Probability and count for (habit.
+,the) were changed
+Probability and count for (the,who) were changed
+Probability and count for (who,is) were changed
+Probability and count for (is,of) were changed
+Probability and count for (of,technology.
+) were changed
+New word pair (technology.
+,Actions) was added
+Probability and count for (Actions,speak) were changed
+New word pair (speak,) was added
+Probability and count for (who,is) were changed
+Probability and count for (is,the) were changed
+New word pair (the,best?) was added
+New word pair (best?,) was added
+Probability and count for (language.
+,) were changed
+Probability and count for (me,Practice) were changed
+New word pair (inspiration,are) was added
+Probability and count for (are,you?) were changed
+New word pair (you?,you) was added
+Probability and count for (you,man.
+) were changed
+New word pair (man.
+,perfect.
+) was added
+Probability and count for (perfect.
+,) were changed
+Probability and count for (
+What,is) were changed
+Probability and count for (is,essential) were changed
+Probability and count for (time?
+,) were changed
+Probability and count for (very,knowledge) were changed
+New word pair (knowledge,indeed.
+) was added
+Probability and count for (indeed.
+,) were changed
+New word pair (books,electronic) was added
+New word pair (helps,sky) was added
+Probability and count for (sky,) were changed
+Probability and count for (tide,wait) were changed
+New word pair (wait,work?
+) was added
+Probability and count for (work?
+,) were changed
+Probability and count for (there,) were changed
+Probability and count for (is,essential) were changed
+New word pair (essential,in) was added
+Probability and count for (in,the) were changed
+New word pair (the,Reading) was added
+Probability and count for (Reading,books) were changed
+Probability and count for (books,electronic) were changed
+Probability and count for (electronic,device.
+) were changed
+New word pair (device.
+,on) was added
+Probability and count for (on,earth.
+) were changed
+New word pair (earth.
+,me) was added
+Probability and count for (me,Practice) were changed
+New word pair (Practice,technology.
+) was added
+Probability and count for (technology.
+,Actions) were changed
+New word pair (Actions,words.
+) was added
+Probability and count for (words.
+,) were changed
+Probability and count for (library?
+,) were changed
+Probability and count for (who,is) were changed
+New word pair (is,my) was added
+New word pair (my,brother?) was added
+New word pair (brother?,) was added
+Probability and count for (AI,) were changed
+Probability and count for (Actions,words.
+) were changed
+New word pair (words.
+,
+amazing) was added
+New word pair (
+amazing,) was added
+New word pair (
+sun,Honesty) was added
+New word pair (Honesty,device.
+) was added
+Probability and count for (the,mat.
+) were changed
+Probability and count for (who,is) were changed
+Probability and count for (Practice,technology.
+) were changed
+New word pair (technology.
+,cat) was added
+Probability and count for (cat,is) were changed
+Probability and count for (is,running) were changed
+New word pair (
+west.
+,) was added
+Probability and count for (who,is) were changed
+Probability and count for (is,running) were changed
+Probability and count for (is,running) were changed
+Probability and count for (in,the) were changed
+Probability and count for (essential,in) were changed
+Probability and count for (in,the) were changed
+Probability and count for (the,mat.
+) were changed
+New word pair (mat.
+,like) was added
+Probability and count for (like,) were changed
+Probability and count for (weather,is) were changed
+Probability and count for (is,running) were changed
+Probability and count for (running,
+What) were changed
+New word pair (
+What,on) was added
+New word pair (on,indeed.
+) was added
+New word pair (
+,) was added
+Probability and count for (worm.
+,) were changed
+Probability and count for (speak,) were changed
+Probability and count for (sitting,am) were changed
+Probability and count for (am,feeling) were changed
+Probability and count for (Learning,Honesty) were changed
+Probability and count for (Honesty,device.
+) were changed
+Probability and count for (device.
+,on) were changed
+Probability and count for (on,indeed.
+) were changed
+Probability and count for (indeed.
+,) were changed
+Probability and count for (am,feeling) were changed
+New word pair (feeling,are) was added
+Probability and count for (are,video) were changed
+New word pair (video,programming) was added
+Probability and count for (programming,language.
+) were changed
+New word pair (language.
+,
+) was added
+New word pair (
+,) was added
+Probability and count for (are,you) were changed
+New word pair (you,alive?) was added
+New word pair (alive?,) was added
+Probability and count for (brother?,) were changed
+New word pair (
+makes,computer) was added
+New word pair (computer,games) was added
+Probability and count for (games,good) were changed
+New word pair (good,electronic) was added
+Probability and count for (electronic,device.
+) were changed
+New word pair (device.
+,man.
+) was added
+Probability and count for (man.
+,perfect.
+) were changed
+New word pair (perfect.
+,The) was added
+Probability and count for (The,early) were changed
+New word pair (early,and) was added
+New word pair (and,speak) was added
+New word pair (to,
+Success) was added
+New word pair (
+Success,comes) was added
+New word pair (comes,sunlight) was added
+Probability and count for (sunlight,and) were changed
+Probability and count for (and,speak) were changed
+Probability and count for (speak,is) were changed
+New word pair (louder,words.
+) was added
+Probability and count for (words.
+,
+amazing) were changed
+New word pair (
+amazing,speak) was added
+Probability and count for (speak,is) were changed
+Probability and count for (is,it) were changed
+New word pair (Honesty,best) was added
+Probability and count for (is,it) were changed
+Probability and count for (happy,today.
+) were changed
+New word pair (today.
+,is) was added
+Probability and count for (is,it) were changed
+Probability and count for (is,it) were changed
+New word pair (my,What) was added
+Probability and count for (What,life) were changed
+New word pair (life,power.
+) was added
+Probability and count for (power.
+,) were changed
+Probability and count for (on,earth.
+) were changed
+New word pair (earth.
+,is) was added
+Probability and count for (is,it) were changed
+New word pair (it,Learning) was added
+Probability and count for (Learning,Honesty) were changed
+Probability and count for (Honesty,best) were changed
+Probability and count for (best,water) were changed
+Probability and count for (water,) were changed
+New word pair (checkmate,) was added
+New word pair (checkmate,) was added
+New word pair (checkmate,is) was added
+Probability and count for (is,a) were changed
+New word pair (a,win) was added
+New word pair (win,in) was added
+New word pair (in,chess) was added
+New word pair (chess,) was added
+Probability and count for (gain,) were changed
+Probability and count for (books,electronic) were changed
+New word pair (electronic,need) was added
+Probability and count for (need,is) were changed
+Probability and count for (is,sitting) were changed
+Probability and count for (mat.
+,like) were changed
+Probability and count for (like,to) were changed
+Probability and count for (thank,you) were changed
+New word pair (you,the) was added
+New word pair (comes,who) was added
+New word pair (sunlight,the) was added
+Probability and count for (the,Reading) were changed
+New word pair (meaning,essential) was added
+Probability and count for (essential,in) were changed
+New word pair (in,policy.
+) was added
+Probability and count for (policy.
+,) were changed
+Probability and count for (like,to) were changed
+New word pair (to,
+good) was added
+New word pair (
+good,and) was added
+New word pair (and,library?
+) was added
+New word pair (
+for,you) was added
+Probability and count for (you,the) were changed
+Probability and count for (the,Reading) were changed
+New word pair (nearest,The) was added
+Probability and count for (The,weather) were changed
+New word pair (weather,Success) was added
+Probability and count for (Success,comes) were changed
+Probability and count for (comes,who) were changed
+Probability and count for (who,work) were changed
+New word pair (work,is) was added
+Probability and count for (is,sitting) were changed
+New word pair (sitting,early) was added
+Probability and count for (early,and) were changed
+New word pair (bird,programming) was added
+Probability and count for (programming,language.
+) were changed
+New word pair (language.
+,early) was added
+Probability and count for (early,and) were changed
+Probability and count for (and,library?
+) were changed
+Probability and count for (library?
+,) were changed
+Probability and count for (man.
+,) were changed
+Probability and count for (the,Reading) were changed
+New word pair (Reading,) was added
+Probability and count for (what,is) were changed
+New word pair (is,chess?) was added
+New word pair (chess?,) was added
+Probability and count for (how,happy) were changed
+New word pair (happy,
+blue) was added
+New word pair (
+blue,and) was added
+New word pair (and,
+chess?) was added
+New word pair (
+chess?,) was added
+Probability and count for (okay?,) were changed
+New word pair (The,
+power.
+) was added
+New word pair (day,clear.
+) was added
+Probability and count for (clear.
+,) were changed
+Probability and count for (books,electronic) were changed
+New word pair (electronic,
+day) was added
+Probability and count for (
+day,is) were changed
+New word pair (is,wait) was added
+Probability and count for (is,wait) were changed
+New word pair (an,life?
+) was added
+Probability and count for (life?
+,
+the) were changed
+New word pair (
+the,in) was added
+Probability and count for (in,policy.
+) were changed
+New word pair (policy.
+,
+makes) was added
+Probability and count for (
+makes,computer) were changed
+New word pair (computer,good) was added
+Probability and count for (good,) were changed
+New word pair (
+Do,you) was added
+New word pair (you,to) was added
+Probability and count for (to,code) were changed
+New word pair (code,Honesty) was added
+Probability and count for (Honesty,best) were changed
+New word pair (best,Hello) was added
+Probability and count for (Hello,) were changed
+Probability and count for (AI,life) were changed
+New word pair (life,inspiration) was added
+Probability and count for (inspiration,are) were changed
+New word pair (are,
+device.
+) was added
+New word pair (
+device.
+,cat) was added
+New word pair (cat,indeed.
+) was added
+Probability and count for (indeed.
+,) were changed
+Probability and count for (Water,is) were changed
+Probability and count for (is,wait) were changed
+Probability and count for (perfect.
+,The) were changed
+Probability and count for (The,
+power.
+) were changed
+Probability and count for (
+power.
+,is) were changed
+Probability and count for (is,wait) were changed
+Probability and count for (wait,work?
+) were changed
+Probability and count for (work?
+,) were changed
