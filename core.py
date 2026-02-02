@@ -46,15 +46,28 @@ def Action_View_Data():
         table.insert('','end',values=row)
     table.pack(fill='both')
 def Action_Chat():
-    def generate_response(query=str(user_input.get())):
+    Chat_Frame=main.create_frame('Chat Frame',800,500)
+    def generate_response():
+        query=str(user_input.get())
+        user_input.delete(0,'end')
         response=AI.Response(query)
-        
-        
-    Chat_Frame=main.create_frame('Chat Frame',400,500)
-    user_input=ttk.Entry(Chat_Frame)
+        out.config(text=response)
+    
+    
+    
+    
+    out_container=tk.LabelFrame(Chat_Frame,text='Chat',width=600,height=500)
+    out_container.place(x=20,y=0)
+
+    user_input=ttk.Entry(out_container)
     user_input.place(x=190,y=390)
-    send=ttk.Button(Chat_Frame,text='Send',command=generate_response)
-    send.place(x=210,y=390)
+    
+    send=ttk.Button(out_container,text='Send',command=lambda:generate_response())
+    send.place(x=400,y=390)
+
+    
+    out=tk.Label(out_container,text='')
+    out.place(x=20,y=20)
     
 main.create('Arq AI',600,800)
 main.menubar_init()

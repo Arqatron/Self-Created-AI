@@ -63,7 +63,9 @@ class AI:
         for i in list_words:
             if i==word:
                 count+=1
-        prob=float(count/recorded_count*total)
+            else:
+                count=1
+        prob=float(abs(count/total))
         return prob
         
     def Train_input(self,sentence,truth=True):
@@ -92,7 +94,7 @@ class AI:
                             next_word=''
                 if in_list:
                         pair_exists=False
-                        change=1-self.calc(word,list_words)
+                        change=self.calc(word,list_words)
                         dat=self.extracted_data()
                         for items in dat:
                             if (items[0],items[1])==(word,next_word):
@@ -152,16 +154,14 @@ class AI:
         
         
         for i in range(len(data)):
-            if (data[i][2]>0.5 or data[i][1]==data[i+1][0]) and len(self.response)<10:
-                self.response+=data[i][0]
-                self.response+=' '
-                self.response+=data[i][1]
-                self.response+= ' '
+            if data[i]!=data[-1]:
+                if (data[i][2]>0.5 or data[i][1]==data[i+1][0]) and len(self.response)<30:
+                    self.response+=data[i][0]
+                    self.response+=' '
+                    self.response+=data[i][1]
+                    self.response+= ' '
         self.Train_input(self.response)
         return self.response
           
 
-#test=AI()
-#out=test.Response('hello,how are you')
-#print(out)
 
