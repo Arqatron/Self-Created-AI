@@ -119,6 +119,6 @@ def Action_Log():
 main.create('Arq AI',600,800)
 main.menubar_init()
 main.menu_add('Action',[('Train',Action_Train),('View Data',Action_View_Data),('Chat',Action_Chat),('Log',Action_Log)])
-
+Action_Chat()
 
 root.mainloop()
