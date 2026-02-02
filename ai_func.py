@@ -180,7 +180,7 @@ class AI:
         
         for i in range(len(data)):
             try:
-                if (data[i][1]==data[i+1][0]) and len(self.response)<100:
+                if (data[i][1]==data[i+1][0]) and len(self.response)<20:
                         self.response+=data[i][0]
                         self.response+=' '
                         self.response+=data[i][1]

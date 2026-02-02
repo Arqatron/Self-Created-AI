@@ -74,7 +74,7 @@ def Action_View_Data():
         table.insert('','end',values=row)
     table.pack(fill='both')
 def Action_Chat():
-    Chat_Frame=main.create_frame('Chat Frame',800,500)
+    Chat_Frame=main.create_frame('Chat Frame',1000,1000)
     def generate_response():
         query=str(user_input.get())
         if len(query.strip())>0:
@@ -87,14 +87,14 @@ def Action_Chat():
     
     
     
-    out_container=tk.LabelFrame(Chat_Frame,text='Chat',width=600,height=500)
+    out_container=tk.LabelFrame(Chat_Frame,text='Chat',width=800,height=800)
     out_container.place(x=150,y=0)
 
     user_input=ttk.Entry(out_container)
-    user_input.place(x=190,y=390)
+    user_input.place(x=190,y=700)
     
     send=ttk.Button(out_container,text='Send',command=lambda:generate_response())
-    send.place(x=400,y=390)
+    send.place(x=400,y=700)
 
     
     out=tk.Label(out_container,text='')
@@ -109,7 +109,7 @@ def Action_Log():
         file.seek(0)
         data=file.read()
     
-    out=tk.Text(Log_out,width=100,height=200,yscrollcommand=scrollbar.set)
+    out=tk.Text(Log_out,width=600,height=200,yscrollcommand=scrollbar.set)
     out.pack()
     for i in data:
         out.insert(tk.END,str(i))
