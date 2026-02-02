@@ -27,3 +27,70 @@ Probability and count for (water,to) were changed
 New word pair (to,in) was added
 Probability and count for (in,the) were changed
 Probability and count for (the,) were changed
+New word pair (Hello,) was added
+Probability and count for (I,like) were changed
+New word pair (like,) was added
+New word pair (hello,,how) was added
+New word pair (how,are) was added
+Probability and count for (are,you) were changed
+Probability and count for (you,) were changed
+Probability and count for (louder,than) were changed
+New word pair (than,cat) was added
+Probability and count for (cat,is) were changed
+Probability and count for (is,good) were changed
+Probability and count for (me,the) were changed
+New word pair (the,Learning) was added
+Probability and count for (Learning,is) were changed
+Probability and count for (is,good) were changed
+Probability and count for (is,good) were changed
+New word pair (very,knowledge) was added
+Probability and count for (knowledge,is) were changed
+Probability and count for (is,good) were changed
+Probability and count for (is,good) were changed
+New word pair (good,and) was added
+Probability and count for (and,water) were changed
+New word pair (water,) was added
+New word pair (What,are) was added
+Probability and count for (are,you) were changed
+New word pair (you,doing) was added
+New word pair (doing,) was added
+Probability and count for (I,am) were changed
+New word pair (am,Learning) was added
+Probability and count for (Learning,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (Where,is) were changed
+Probability and count for (is,) were changed
+Probability and count for (is,) were changed
+New word pair (a,Honesty) was added
+Probability and count for (Honesty,is) were changed
+Probability and count for (is,) were changed
+New word pair (Do,you) was added
+New word pair (you,know) was added
+New word pair (know,me) was added
+New word pair (me,) was added
+Probability and count for (tell,me) were changed
+New word pair (me,Practice) was added
+Probability and count for (Practice,makes) were changed
+New word pair (makes,computer) was added
+Probability and count for (computer,is) were changed
+Probability and count for (is,) were changed
+New word pair (what,day) was added
+Probability and count for (day,is) were changed
+New word pair (is,today?) was added
+New word pair (today?,) was added
+Probability and count for (to,in) were changed
+New word pair (in,for) was added
+Probability and count for (for,life) were changed
+New word pair (life,) was added
+Probability and count for (are,you) were changed
+New word pair (you,okay?) was added
+New word pair (okay?,) was added
+Probability and count for (Python,is) were changed
+Probability and count for (is,the) were changed
+New word pair (
+day,is) was added
+Probability and count for (is,the) were changed
+Probability and count for (in,the) were changed
+Probability and count for (the,) were changed
+Probability and count for (is,the) were changed
+Probability and count for (the,) were changed
