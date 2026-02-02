@@ -1,0 +1,155 @@
+
+
+
+
+
+
+New word pair (Hello,,how) was added
+New word pair (how,are) was added
+New word pair (are,you?
+) was added
+New word pair (you?
+,) was added
+New word pair (I'm,good,) was added
+New word pair (good,,thanks.
+) was added
+New word pair (thanks.
+,) was added
+New word pair (I'm,doing) was added
+New word pair (doing,well,) was added
+New word pair (well,,thanks.
+) was added
+Probability and count for (thanks.
+,) were changed
+New word pair (I'm,not) was added
+New word pair (not,feeling) was added
+New word pair (feeling,so) was added
+New word pair (so,well) was added
+New word pair (well,though.
+) was added
+New word pair (though.
+,) was added
+New word pair (I,try) was added
+New word pair (think,I) was added
+New word pair (I,try) was added
+New word pair (can,succeed) was added
+New word pair (succeed,if) was added
+New word pair (if,I) was added
+New word pair (I,try) was added
+New word pair (try,hard.
+) was added
+New word pair (hard.
+,) was added
+New word pair (hello,,how) was added
+Probability and count for (how,are) were changed
+New word pair (are,you) was added
+New word pair (you,) was added
+New word pair (if,) was added
+New word pair (I,you?
+) was added
+Probability and count for (you?
+,) were changed
+Probability and count for (well,though.
+) were changed
+New word pair (though.
+,succeed) was added
+Probability and count for (succeed,if) were changed
+Probability and count for (if,) were changed
+New word pair (what,are) was added
+Probability and count for (are,you) were changed
+New word pair (you,doing) was added
+New word pair (doing,) was added
+Probability and count for (I,you?
+) were changed
+New word pair (you?
+,I'm) was added
+Probability and count for (I'm,good,) were changed
+New word pair (good,,you) was added
+Probability and count for (you,) were changed
+Probability and count for (can,succeed) were changed
+New word pair (succeed,) was added
+New word pair (can,you) was added
+New word pair (you,succeed?) was added
+New word pair (succeed?,) was added
+Probability and count for (I,try) were changed
+New word pair (try,) was added
+Probability and count for (I'm,good,) were changed
+New word pair (good,,doing) was added
+Probability and count for (doing,well,) were changed
+New word pair (well,,I) was added
+Probability and count for (I,try) were changed
+Probability and count for (try,) were changed
+New word pair (How,is) was added
+New word pair (is,today?) was added
+New word pair (today?,) was added
+Probability and count for (good,,doing) were changed
+New word pair (doing,I) was added
+New word pair (I,) was added
+New word pair (try,are) was added
+Probability and count for (are,you?
+) were changed
+New word pair (you?
+,well,) was added
+Probability and count for (well,,I) were changed
+Probability and count for (I,) were changed
+New word pair (hello,) was added
+Probability and count for (hello,) were changed
+New word pair (hey,) was added
+Probability and count for (hey,) were changed
+Probability and count for (good,,you) were changed
+Probability and count for (you,) were changed
+New word pair (i'm,doing) was added
+Probability and count for (doing,well,) were changed
+New word pair (well,,it's) was added
+New word pair (it's,a) was added
+New word pair (a,good) was added
+New word pair (good,day) was added
+New word pair (day,right?) was added
+New word pair (right?,) was added
+Probability and count for (succeed,if) were changed
+New word pair (if,good,) was added
+Probability and count for (good,,you) were changed
+New word pair (you,I) was added
+Probability and count for (I,try) were changed
+Probability and count for (try,) were changed
+New word pair (how,many) was added
+New word pair (many,fingers) was added
+New word pair (fingers,do) was added
+New word pair (do,you) was added
+New word pair (you,have?) was added
+New word pair (have?,) was added
+Probability and count for (well,,I) were changed
+New word pair (I,can) was added
+Probability and count for (can,succeed) were changed
+Probability and count for (succeed,) were changed
+New word pair (a,human) was added
+New word pair (human,has) was added
+New word pair (has,five) was added
+New word pair (five,fingers) was added
+New word pair (fingers,) was added
+Probability and count for (try,are) were changed
+New word pair (are,) was added
+New word pair (hands,have) was added
+New word pair (have,five) was added
+Probability and count for (five,fingers) were changed
+Probability and count for (fingers,) were changed
+Probability and count for (is,today?) were changed
+New word pair (today?,you?
+) was added
+Probability and count for (you?
+,well,) were changed
+New word pair (well,,i'm) was added
+Probability and count for (i'm,doing) were changed
+Probability and count for (doing,) were changed
+New word pair (legs,have) was added
+New word pair (have,toes) was added
+New word pair (toes,) was added
+New word pair (what,does) was added
+New word pair (does,your) was added
+New word pair (your,leg) was added
+New word pair (leg,have?) was added
+Probability and count for (have?,) were changed
+Probability and count for (today?,you?
+) were changed
+Probability and count for (you?
+,) were changed

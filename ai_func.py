@@ -63,9 +63,8 @@ class AI:
         for i in list_words:
             if i==word:
                 count+=1
-            else:
-                count=1
-        prob=float(abs(count/total))
+            
+        prob=float(1-abs(count/total*recorded_count))
         return prob
         
     def Train_input(self,sentence,truth=True):
@@ -105,13 +104,39 @@ class AI:
                             
                             self.cur.execute('''UPDATE Data SET Count = %s WHERE Words = %s AND Next = %s''',(count+1,word,next_word))
                             self.mycon.commit()
+
+                            try:
+                                with open('Log.txt','a') as file:
+                                    file.write('\n')
+                                    file.write(f'Probability and count for ({word},{next_word}) were changed')
+                            except FileNotFoundError:
+                                with open('Log.txt','w') as file:
+                                    file.write('\n')
+                                    file.write(f'Probability and count for ({word},{next_word}) were changed')
                         else:
                             self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s,%s);",(word,next_word,1.0,1))
                             self.mycon.commit()
+                            try:
+                                with open('Log.txt','a') as file:
+                                    file.write('\n')
+                                    file.write(f'New word pair ({word},{next_word}) was added')
+                            except:
+                                with open('Log.txt','a') as file:
+                                    file.write('\n')
+                                    file.write(f'New word pair ({word},{next_word}) was added')
+                                
                             continue
                 elif in_list==False and word.replace(' ','')!='':
                             self.cur.execute("INSERT INTO Data VALUES(%s,%s,%s,%s);",(word,next_word,1.0,1))
                             self.mycon.commit()
+                            try:
+                                with open('Log.txt','a') as file:
+                                    file.write('\n')
+                                    file.write(f'New word pair ({word},{next_word}) was added')
+                            except:
+                                with open('Log.txt','a') as file:
+                                    file.write('\n')
+                                    file.write(f"New word pair {word},{next_word} was added")
         else:
             pass
                         
@@ -146,7 +171,7 @@ class AI:
             elif word==Tenses['Future']:
                 self.tense='Future'
                     
-        data=sorted(self.extracted_data(), key= lambda x:x[1] ,reverse=True)
+        data=sorted(self.extracted_data(), key= lambda x:x[1])
         
         for i in range(len(data)):
             temp=random.randint(0,i)
@@ -154,12 +179,14 @@ class AI:
         
         
         for i in range(len(data)):
-            if data[i]!=data[-1]:
-                if (data[i][2]>0.5 or data[i][1]==data[i+1][0]) and len(self.response)<30:
-                    self.response+=data[i][0]
-                    self.response+=' '
-                    self.response+=data[i][1]
-                    self.response+= ' '
+            try:
+                if (data[i][1]==data[i+1][0]) and len(self.response)<30:
+                        self.response+=data[i][0]
+                        self.response+=' '
+                        self.response+=data[i][1]
+                        self.response+= ' '
+            except:
+                break
         self.Train_input(self.response)
         return self.response
           

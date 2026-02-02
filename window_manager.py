@@ -16,7 +16,7 @@ class window:
         
         self.name=tk.Toplevel(self.root)
         self.name.geometry(f'{width}x{height}')
-        self.name.resizable(False,False)
+        
         self.name.title(str(name))
        
 
