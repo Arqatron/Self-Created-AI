@@ -143,6 +143,12 @@ class AI:
                         
     
     def Response(self,sentence):
+        def clean_text(string):
+            string=str(string)
+            for i in string:
+                if i.isalpha()==False:
+                    string=string.replace(i,'')
+            return string
         self.Train_input(sentence)
                    
         self.response=''
@@ -173,26 +179,50 @@ class AI:
                 self.tense='Future'
                     
         data=sorted(self.extracted_data(), key= lambda x:x[1],reverse=True)
-        
-        for i in range(len(data)):
-            temp=random.randint(0,i)
-            data[i],data[temp]=data[temp],data[i]
+
         
         
+##        final_data=[]
+##        for i in range(len(data)):
+##            try:
+##                if data[i][1].lower().replace('\n','')==data[i+1][0].lower().replace('\n',''):
+##                    print(data[i],data[i+1])
+##                    final_data.append(data[i][0])
+##                    final_data.append(data[i][1])
+##                    final_data.append(data[i+1][0])
+##                    final_data.append(data[i+1][1])
+##            except:
+##                break
+##        print(final_data)
         for i in range(len(data)):
             try:
-                if (data[i][2]>0.6 and data[i][1]==data[i+1][0]) and len(self.response)<50:
-                    
-                    self.response+=data[i][0]
-                    self.response+=' '
-                    self.response+=data[i][1]
-                    self.response+= ' '
-                    if len(self.response)%10==0:
-                        self.response+='\n'
+                temp=data[random.randint(0,len(data))]
+                data[i],temp=temp,data[i]
             except:
                 break
-        self.Train_input(self.response)
+            
+       
+        for i in range(len(data)):
+            try:
+                word1=clean_text(data[i][0])
+                word2=clean_text(data[i][1])
+                word3=clean_text(data[i+1][0])
+                word4=clean_text(data[i+1][1])
+                if word2.lower()==word3.lower() and len(self.response)<50:
+                    
+                    self.response+=word1
+                    self.response+=' '
+                    self.response+=word2
+                    self.response+=' '
+                    self.response+=word4
+                    self.response+=' '
+                    
+                    if len(self.response)%10==0:
+                        self.response+='\n'
+            
+            except:
+                break
+        
         return self.response
           
-
 
